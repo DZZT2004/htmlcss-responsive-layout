@@ -132,3 +132,77 @@ header{
     text-align: center;
     color:rgb(87, 84, 84);
 }
+
+/* flexbox 2 */
+
+.planning2{
+    background-color: rgba(149,147,230,255);
+    height: 800px;
+    display: flex;
+    padding: 50px 400px 50px 400px;
+    box-sizing: border-box;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: white;
+}
+
+.planning2 > .immagine{
+    flex-basis: 50%;
+    background-image: url(img/planning1.png);
+    height: 50%;
+    width: 50%;
+    min-width: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+}
+
+.planning2 > h1{
+    flex-basis: 5%;
+    margin-left: 70px;
+    margin-bottom: 30px;
+}
+
+.planning2 > p{
+    flex-basis: 15%;
+    width: 45%;
+    margin-left: 70px;
+    letter-spacing: 0.06rem;
+    line-height: 1.5rem;
+}
+
+.planning2 .immagine2{
+    background-color: white;
+    color: black;
+    width: 35%;
+    height: 500px;
+    border-radius: 10%;
+    box-sizing: border-box;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: auto;
+}
+
+.immagine2 img{
+    width: 60%;
+    display: block;
+    margin: auto;
+}
+
+.immagine2 p{
+    text-align: center;
+    letter-spacing: 0.04rem;
+    line-height: 1.5rem;
+    font-style: italic;
+}
+
+.fa-arrow-down-long{
+    background-color: rgba(149,147,230,255);
+    border-radius: 120%;
+    padding: 11px 14px;
+}
