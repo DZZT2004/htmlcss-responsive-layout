@@ -1,6 +1,7 @@
 body{
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
 }
 
 header{
@@ -259,7 +260,7 @@ header{
     border-radius: 50%;
 }
 
-.expert div.text{
+.expert div.testo{
     margin-top: 50px;
     width: 70%;
     height: 60%;
@@ -267,4 +268,63 @@ header{
 
 .expert p{
     margin-bottom: 25px;
+}
+
+.expert span{
+    font-weight: bold;
+}
+
+.features{
+    display: flex;
+    width: 1920px;
+    margin: 100px auto;
+    padding: 0px 435px 60px 435px;
+    flex-wrap: wrap;
+    gap: 20px 20px;
+    background-color: rgba(149,147,230,255);
+    box-sizing: border-box;
+}
+
+.features h1{
+    flex-basis: 100%;
+    text-align: center;
+    padding-right: 50px;
+    color: white;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.features .item{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    flex-basis: 26%;
+    border-radius: 15px;
+    padding: 30px;
+}
+
+.item span, .item h3, .item p{
+    color: rgba(149,147,230,255);
+}
+
+.item span{
+    font-size: 52px;
+    font-weight: bold;
+}
+
+.item p{
+    color: grey;
+    letter-spacing: 0.06rem;
+    line-height: 1.5rem;
+}
+
+.item button{
+    width: 50%;
+    height: 2.5rem;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    background-color: rgba(149,147,230,255);
+    letter-spacing: 0.08rem;
+    font-weight: bold;
 }
