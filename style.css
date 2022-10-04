@@ -426,7 +426,6 @@ header{
 }
 
 span a{
-    text-decoration: none;
     color: white;
 }
 
@@ -443,4 +442,25 @@ span a{
     border-radius: 50px;
     color: rgba(149,147,230,255);
     font-weight: bold;
+}
+
+footer{
+    background-color: rgb(54, 51, 51);
+    color: white;
+    height: 200px;
+}
+
+.foot{
+    width: 450px;
+    margin: auto;
+}
+
+.foot p{
+    margin-top: 0px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.foot p a{
+    color: rgba(149,147,230,255);
 }
