@@ -328,3 +328,66 @@ header{
     letter-spacing: 0.08rem;
     font-weight: bold;
 }
+
+.about-us{
+    display: flex;
+    width: 1000px;
+    margin: auto;
+}
+
+.about-us .item1{
+    flex-basis: 70%;
+}
+
+.about-us .item2{
+    flex-basis: 30%;
+}
+
+.about-us .item2 img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 0px solid;
+    margin: 25px 45px 35px 35px;
+}
+.about-us span{
+    color: rgba(149,147,230,255);
+    font-size: 54px;
+    font-weight: bold;
+}
+
+.about-us .item1 p{
+    letter-spacing: 0.08rem;
+    line-height: 2rem;
+    margin-bottom: 50px;
+}
+
+.about-us .item2 .fa-quote-left{
+    font-size: 68px;
+    color: rgba(149,147,230,255);
+    position: relative;
+    left: 180px;
+    bottom: 240px;
+}
+
+.about-us .item2 p{
+    color: rgba(149,147,230,255);
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    left: 40px;
+    bottom: 110px;
+    width: 200px;
+}
+
+.about-us .item2 button{
+    width: 60%;
+    height: 2.5rem;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    background-color: rgba(149,147,230,255);
+    position: relative;
+    left: 40px;
+    bottom: 110px;
+}
