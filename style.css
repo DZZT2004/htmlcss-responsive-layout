@@ -2,6 +2,7 @@ body{
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 header{
@@ -390,4 +391,56 @@ header{
     position: relative;
     left: 40px;
     bottom: 110px;
+}
+
+.get-started{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 60px 0px;
+    background-color: rgba(149,147,230,255);
+    color: white;
+}
+
+.get-started h1{
+    font-size: 40px;
+}
+
+.free{
+    font-size: 80px;
+    color: rgb(255, 208, 0);
+    font-weight: bold;
+}
+
+.get-started p{
+    width: 500px;
+    margin: 20px auto;
+    text-align: center;
+    letter-spacing: 0.04rem;
+    line-height: 1.5rem;
+}
+
+.started{
+    color: lightgray;
+}
+
+span a{
+    text-decoration: none;
+    color: white;
+}
+
+.fa-circle{
+    font-size: 4px;
+    position: relative;
+    bottom: 4px;
+}
+
+.get-started button{
+    height: 4rem;
+    width: 250px;
+    border: none;
+    border-radius: 50px;
+    color: rgba(149,147,230,255);
+    font-weight: bold;
 }
